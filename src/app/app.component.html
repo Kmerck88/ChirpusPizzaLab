@@ -1,4 +1,6 @@
 <h1>Welcome to Chirpus Pizza</h1>
-<div *ngFor="let MenuItemof menuitems">
-  <h4>{{MenuItem.item}}</h4>
-  <p>{{MenuItem.item}}</p>
+<div *ngFor="let MenuItem of menuItems">
+  <h4>{{ MenuItem.item }}</h4>
+  <p>{{ MenuItem.category }}</p>
+  <p>{{ MenuItem.price }}</p>
+</div>
